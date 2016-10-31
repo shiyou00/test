@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    <style>
+        #some-id{
+            width:100px;
+            height:100px;
+            background:red;
+        }
+    </style>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var SetAttr = React.createClass({
+        render:function(){
+            return(
+                <div id="some-id" className="some-class">
+                    1.设置了id
+                    2.设置了class
+                 </div>
+            )
+        }
+    });
+    ReactDOM.render(
+            <SetAttr />,
+            document.getElementById('example')
+    );
+</script>
+</body>
+</html>

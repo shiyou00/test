@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    <style>
+        #to-show{
+            color:green;
+        }
+        #to-hide{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var LikeButton = React.createClass({
+        getInitialState: function() {
+            return {liked: false};
+        },
+        render: function() {
+            return (
+                <div>
+                    <Child liked={this.state.liked} />
+                </div>
+            );
+        }
+    });
+    var Child = React.createClass({
+        setAttr:function(){
+            return this.props.liked?'to-show':'to-hide';
+        },
+        render:function(){
+            return(
+                <div>
+                    <p id={this.setAttr()}>这里使用函数的方式设置属性</p>
+                </div>
+            )
+        }
+    });
+    ReactDOM.render(
+        <LikeButton />,
+        document.getElementById('example')
+    );
+</script>
+</body>
+</html>

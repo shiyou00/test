@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var App = React.createClass({
+         handleClick:function(){
+            //自定义点击事件
+             var textNode=this.refs.myText;
+             //这里就像是我们以前操作DOM的代码习惯一样
+             textNode.style.background='red';
+        },
+        render:function(){
+            return (
+                    <div>
+                        <input type="text" ref="myText" />
+                        <input type="button" value="点击按钮" onClick={this.handleClick} />
+                    </div>
+            )
+        }
+    });
+    ReactDOM.render(
+        <App />,
+        document.getElementById('example')
+    );
+</script>
+</body>
+</html>

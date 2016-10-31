@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="../build/react.js"></script>
+    <script src="../build/react-dom.js"></script>
+    <script src="../build/browser.min.js"></script>
+    <style>
+        #to-show{
+            color:green;
+        }
+        #to-hide{
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+    var LikeButton = React.createClass({
+        getInitialState: function() {
+            return {liked: false};
+        },
+        render: function() {
+            return (
+                 <div>
+                    <Child liked={this.state.liked} />
+                 </div>
+            );
+        }
+    });
+    var Child = React.createClass({
+        render:function(){
+            var bOk = this.props.liked;
+            return(
+                <div>
+                    <p id={bOk?"to-show":"to-hide"}>这里使用三目运算设置属性</p>
+                    <p id="data-new">这里直接设置静态属性</p>
+                </div>
+            )
+        }
+    });
+    ReactDOM.render(
+    <LikeButton />,
+            document.getElementById('example')
+    );
+</script>
+</body>
+</html>
