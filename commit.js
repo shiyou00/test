@@ -7,4 +7,4 @@ var Animal = /** @class */ (function () {
     };
     return Animal;
 }());
-var a = new Animal('jack1');
+var a = new Animal('jack12');

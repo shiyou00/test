@@ -8,4 +8,4 @@ class Animal{
     }
 }
 
-let a = new Animal('jack1');
+let a = new Animal('jack12');
