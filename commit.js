@@ -7,4 +7,5 @@ var Animal = /** @class */ (function () {
     };
     return Animal;
 }());
-var a = new Animal('jack121111111');
+var a = new Animal('jack12');
+//Creating a new branch is quick.

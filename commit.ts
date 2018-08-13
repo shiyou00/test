@@ -8,4 +8,5 @@ class Animal{
     }
 }
 
-let a = new Animal('jack121111');
+let a = new Animal('jack12');
+//Creating a new branch is quick.
