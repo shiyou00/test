@@ -4,7 +4,6 @@
     <list default="true" id="264c8741-23c1-4257-832c-fa286f3a06fd" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commit.js" beforeDir="false" afterPath="$PROJECT_DIR$/commit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commit.ts" beforeDir="false" afterPath="$PROJECT_DIR$/commit.ts" afterDir="false" />
     </list>
     <ignored path="github-demo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +31,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="commit.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="commit.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commit.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/commit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -70,6 +78,7 @@
         <option value="$PROJECT_DIR$/3-component/index.html" />
         <option value="$PROJECT_DIR$/4-state/index.html" />
         <option value="$PROJECT_DIR$/commit.ts" />
+        <option value="$PROJECT_DIR$/commit.js" />
       </list>
     </option>
   </component>
@@ -104,6 +113,11 @@
             <path>
               <item name="github-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="github-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="commit.ts" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -188,7 +202,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3291000" />
+    <option name="totallyTimeSpent" value="4152000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="-983" width="1440" height="797" extended-state="0" />
@@ -210,6 +224,7 @@
       <window_info id="Designer" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -247,7 +262,6 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="调试" order="7" />
       <window_info anchor="bottom" id="版本控制" order="7" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout>
   </component>
@@ -263,13 +277,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2-setAttrbute/demo2-attr.html">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -616,7 +623,14 @@
     <entry file="file://$PROJECT_DIR$/commit.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
         </state>
       </provider>
     </entry>
