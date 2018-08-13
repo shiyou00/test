@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="264c8741-23c1-4257-832c-fa286f3a06fd" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commit.js" beforeDir="false" afterPath="$PROJECT_DIR$/commit.js" afterDir="false" />
     </list>
     <ignored path="github-demo.iws" />
@@ -44,7 +43,11 @@
         <entry file="file://$PROJECT_DIR$/commit.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
+<<<<<<< HEAD
               <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+=======
+              <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+>>>>>>> simple
             </state>
           </provider>
         </entry>
@@ -202,7 +205,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="4152000" />
+=======
+    <option name="totallyTimeSpent" value="3318000" />
+>>>>>>> simple
   </component>
   <component name="ToolWindowManager">
     <frame x="76" y="-983" width="1440" height="797" extended-state="0" />
@@ -624,6 +631,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -631,6 +639,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+=======
+>>>>>>> simple
         </state>
       </provider>
     </entry>
